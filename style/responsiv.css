@@ -1,0 +1,83 @@
+@media screen and (max-width:1200px) {
+    .content{
+        max-width: 1440px;
+        margin: auto;
+    }
+    .cards{
+        max-width: 1440px;
+        margin: auto;
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .content{
+        max-width: 720px;
+        margin: auto;
+    }
+    .cards{
+        max-width: 720px;
+        margin: auto;
+        padding: 80px;
+    }
+    .femli_card{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .live__right{
+        width: 100%;
+        /* background-color: transparent; */
+        /* border: 1px solid black; */
+    }
+    .live__left{
+        width: 100%;
+        height: 500px;
+        /* padding: 10% 0; */
+        /* border: 1px solid black; */
+    }
+    .cardr{
+        flex-wrap: wrap;
+        max-width: 720px;
+        margin: auto;
+        display: block;
+        /* gap: 50px; */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content{
+        max-width: 540px;
+        margin: auto;
+    }
+    .cards{
+        max-width: 540px;
+        margin: auto;
+        padding: 80px;
+    }
+    .femli_card{
+        justify-content: space-evenly;
+    }
+    .content__live{
+        display: block;
+        background-color: aqua;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    
+    .cards{
+        padding: 0;
+    }
+    .card{
+        width: 100%;
+        padding: 10px;
+    }
+    .live__right{
+    padding: 20px 10px;
+    background-color: blue;
+    }
+    .live__right .btn{
+        width: 100%;
+        padding: 0 200px;
+    }
+}

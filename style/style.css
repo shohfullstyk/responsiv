@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+/* .my_content{
+    max-width: 1250px;
+    margin: auto;
+} */
+.content{
+    max-width: 1440px;
+    margin: auto;
+}
+.cardr{
+    display: flex;
+    width: 100%;
+}
+.content__live{
+    width: 100%;
+    display: flex;
+    background-color: #F9F9F9;
+} 
+.content__live .live__left{
+    max-width: 720px;
+    background: url(../Image\ \(1\).png)no-repeat center center /cover;
+    padding: 25%;
+} 
+.live__right{
+    max-width: 720px;
+    padding: 74px 100px 54px 84px;
+    background-color: #F9F9F9;
+}
+.live__right h3{
+    /* font-family: Clash Display; */
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.6px;
+    text-align: left;
+}
+.live__right h4{
+    /* font-family: Satoshi; */
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: left;
+    margin-top: 25px;
+}
+.live__right .btn{
+    width: 150px;
+    margin-top: 300px;
+    padding: 16px 0px;
+    background-color: white;
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    transition: all 0.5s;
+}
+.btn:hover {
+    background-color: blue;
+    color: white;
+    font-weight: 900;
+    border-radius: 15px;
+}
+.cards{
+    max-width: 1440px;
+    margin: auto;
+    padding: 80px;
+}
+.cards .item1{
+    text-align: center;
+    color: #2A254B;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.6px;
+}
+.femli_card{
+    width: 100%;
+    display: flex;
+    gap: 22px;
+    margin-top: 36px;
+}
+.femli_card .card{
+    background-color: #F9F9F9;
+    max-width: 305px;
+    padding: 48px;
+    gap: 12px;
+}
+.card h3{
+    color: #2A254B;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    margin-top: 12px;
+}
+.card h4{
+    font-size: 16px;
+    color: #2A254B;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 12px;
+}
